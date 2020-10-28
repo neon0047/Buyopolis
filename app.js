@@ -7,14 +7,14 @@ tl.to('.cover',1,{
     width:'60%',
     ease: Power2.easeOut
 })
-tl.to('nav',1,{
-    height:'100%',background:'#383838',color:'white',
+tl.to('nav',0.6,{
+    height:'100%',
     ease: Power2.easeOut
 }, '-=0.5');
 
-tl.fromTo('.nav-open',0.5, {
+tl.fromTo('.nav-open',0.3, {
     opacity:0,
-    x:50,
+    x:-50,
     ease:Power2.easeOut
 },{
     opacity:1,
